@@ -6,7 +6,6 @@
   </head>
   <body>
     <div class="">Enter an ID(2) to display a user</div>
-    <?php if (!empty($_GET['data'])){ $data = $_GET['data']; } ?>
     <form action="" method="GET">
       <input name="data" type="text" require>
       <button type="submit" value="submit" class="hato">Submit</button>
